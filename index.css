@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* You can add custom styles below */
+body {
+  @apply bg-slate-900 text-white transition-colors duration-300;
+}
+
+body.morning {
+  background: linear-gradient(to bottom, #dfefff, #a1c4fd);
+}
+body.afternoon {
+  background: linear-gradient(to bottom, #ffecd2, #fcb69f);
+}
+body.evening {
+  background: linear-gradient(to bottom, #c33764, #1d2671);
+}
+body.night {
+  background: linear-gradient(to bottom, #141e30, #243b55);
+}
